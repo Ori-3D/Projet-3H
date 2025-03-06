@@ -1,47 +1,47 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les espacements intérieurs par défaut */ 
 }
 
 .navbar {
     background-color: #00aff2;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+    height: 80px; /* Définit la hauteur de la navbar */ 
+    display: flex; /* Active flexbox pour aligner les éléments */
+    justify-content: center; /* Centre horizontalement les éléments */
+    align-items: center; /* Centre verticalement les éléments */ 
+    font-size: 20px; /* Définit la taille du texte de la navbar */
+    position: sticky; /* Fait en sorte que la navbar reste en haut lors du défilement */
+    top: 0; /* Positionne la navbar en haut de la page */  
+    z-index: 999; /* Assure que la navbar reste au-dessus des autres éléments */
     }
 
 .navbar__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Éloigne les éléments pour remplir l’espace */
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 2000px;
+    max-width: 2000px; /* Limite la largeur maximale de la navbar */
     margin: 0 auto;
     padding: 0 25px ;
 }
 
 #navbar__logo img {
-    height: 80px;
-    width: auto;
+    height: 80px; /* Ajuste la hauteur du logo */
+    width: auto; /* Garde le ratio du logo */ 
 }
 
 
 #navbar__logo {
-    text-decoration: none;
+    text-decoration: none; /* Supprime le soulignement du lien du logo */
 }
 
 .navbar__menu {
     display: flex;
     align-items: center;
-    list-style: none;
+    list-style: none; /* Supprime les puces des listes */
     text-align: center;
 
 }
@@ -55,15 +55,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
+    text-decoration: none; /* Supprime le soulignement des liens */ 
     padding: 0 1rem;
     height: 100%;
-    transition:  0.5s ease-out;
+    transition:  0.5s ease-out; /* Ajoute une transition*/
 }
 .navbar__links:hover {
-    color: white;
     transition: all .5s ease-in-out;
-    transform: translateY(-5px) scale(1.2);
-    text-shadow: 
-         1px 1px 0 black;
+    transform: translateY(-5px) scale(1.2); /* Fait légèrement monter et agrandir le lien au survol */  
+    text-shadow: 1px 1px 0 black;
 }
