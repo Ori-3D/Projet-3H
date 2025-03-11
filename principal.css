@@ -1,23 +1,24 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 50px; /* Ajoute un espace de 50px autour du contenu */
+    padding: 50px;
     background-color: #00aff2;
-    overflow-x: hidden; /* Empêche le défilement horizontal (évite les dépassements) */
+    color: white;
+    overflow-x: hidden;
 }
 .spacer {
-    height: 5px; 
+    height: 5px; /* Ajuste la hauteur selon tes besoins */
 }
 .section {
     background-color: white;
     display: flex;
     align-items: center;
     min-height: 300px;
-    border-radius: 10px; /* Arrondit les coins de la section */
+    border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
-    margin-bottom: 40px; /* Ajoute un espace de 40px sous chaque section */
+    margin-bottom: 40px; 
     transition: all 1.2s;
-    overflow: hidden; /* Cache tout dépassement d’éléments internes */
-    transform-origin: center; /* Définit le point d’origine des transformations au centre */
+    overflow: hidden; 
+    transform-origin: center;
     color: black;
     text-decoration: none;
 }
@@ -29,12 +30,17 @@ body {
 }
 
 .section:nth-child(even) {
-    flex-direction: row-reverse; /* Inverse l’ordre des éléments pour les sections paires */
+    flex-direction: row-reverse;
 }
 .text {
-    flex: 1; /* Permet au texte de prendre 50% de l’espace disponible dans .section */
+    flex: 1;
     padding: 20px;
 
+}
+
+.links {
+    color: rgb(77, 72, 218);
+    text-decoration: none;
 }
 .image {
     flex: 1;
@@ -50,4 +56,27 @@ body {
 
 .media {
     width: 1000px;
+}
+.img1 {
+    width: 500px;
+}
+.img2 {
+    width: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img3 {
+    width: 500px;
+    display: block;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img4 {
+    width: 400px;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25%;
 }
