@@ -8,6 +8,8 @@ body {
 .spacer {
     height: 5px; /* Ajuste la hauteur selon tes besoins */
 }
+
+/* Acceuil */
 .section {
     background-color: white;
     display: flex;
@@ -35,13 +37,15 @@ body {
 .text {
     flex: 1;
     padding: 20px;
-
 }
 
-.links {
-    color: rgb(77, 72, 218);
-    text-decoration: none;
+
+/* Hors acceuil */
+
+.title{
+    font-size: xx-large;
 }
+
 .image {
     flex: 1;
     display: flex;
@@ -73,10 +77,24 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centre les images horizontalement */
+    gap: 20px; /* Espacement entre les images */
+    margin-bottom: 20px; /* Espace sous les images */
+}
+
 .img4 {
-    width: 400px;
-    flex: 2;
-    justify-content: center;
-    align-items: center;
-    margin: 0 25%;
+    max-width: 400px; /* Ajuste la taille des images si nécessaire */
+    height: auto;
+}
+
+.links {
+    display: block;
+    text-align: center;
+    margin-top: 15px; /* Espace entre les liens */
+    color: rgb(99, 95, 199);
+    text-decoration: none;
+    font-size: 20px;
 }
