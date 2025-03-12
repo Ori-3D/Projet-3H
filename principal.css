@@ -4,6 +4,7 @@ body {
     background-color: #00aff2;
     color: white;
     overflow-x: hidden;
+    font-size: 18px
 }
 .spacer {
     height: 5px; /* Ajuste la hauteur selon tes besoins */
@@ -43,7 +44,7 @@ body {
 /* Hors acceuil */
 
 .title{
-    font-size: xx-large;
+    font-size: 40px;
 }
 
 .image {
@@ -85,7 +86,7 @@ body {
     margin-bottom: 20px; /* Espace sous les images */
 }
 
-.img4 {
+.img {
     max-width: 400px; /* Ajuste la taille des images si nécessaire */
     height: auto;
 }
