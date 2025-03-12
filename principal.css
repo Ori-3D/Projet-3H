@@ -7,7 +7,7 @@ body {
     font-size: 18px
 }
 .spacer {
-    height: 5px; /* Ajuste la hauteur selon tes besoins */
+    height: var(--space, 5px); /* Ajuste la hauteur selon tes besoins */
 }
 
 /* Acceuil */
@@ -87,7 +87,7 @@ body {
 }
 
 .img {
-    max-width: 400px; /* Ajuste la taille des images si nécessaire */
+    max-width: var(--img-width, 400px); /* Valeur par défaut 200px */
     height: auto;
 }
 
