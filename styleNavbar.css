@@ -3,16 +3,19 @@
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #00aff2;
+}
+
+.spacer {
+    height: var(--space, 5px); /* Ajuste la hauteur selon tes besoins */
 }
 
 .navbar {
-    background-color: #00aff2;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
     top: 0;
     z-index: 999;
     }
