@@ -6,6 +6,7 @@ body {
     overflow-x: hidden;
     font-size: 18px
 }
+
 .spacer {
     height: var(--space, 5px); /* Ajuste la hauteur selon tes besoins */
 }
